@@ -1,0 +1,26 @@
+{
+  "name": "@cityssm/bulma-webapp-css",
+  "version": "0.0.1",
+  "description": "Shared styling for lottery-licence-manager and parking-ticket-system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cityssm/bulma-webapp-css.git"
+  },
+  "author": "Corporation of the City of Sault Ste. Marie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cityssm/bulma-webapp-css/issues"
+  },
+  "homepage": "https://github.com/cityssm/bulma-webapp-css#readme",
+  "dependencies": {
+    "bulma": "^0.8.2",
+    "bulma-divider": "^0.2.0",
+    "bulma-helpers": "^0.3.10",
+    "bulma-steps": "^2.2.1",
+    "bulma-tooltip": "^3.0.2"
+  }
+}
