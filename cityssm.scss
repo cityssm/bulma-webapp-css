@@ -1,36 +1,82 @@
 @import 'bulma/bulma';
+
+$spacing-range-start: 0;
 @import 'bulma-helpers/bulma-helpers';
+
 @import 'bulma-divider/src/sass/index';
 @import 'bulma-tooltip/src/sass/index';
 @import 'bulma-steps/src/sass/index';
 @import 'bulma-switch/src/sass/index';
 
-
 /*
  * HTML
  */
 
-
 html.is-fullwidth {
-
+  .footer > .container,
   .navbar > .container,
-  main.container,
-  .footer > .container {
-     max-width: none;
-     padding-right: 15px;
-     padding-left: 15px;
+  main.container {
+    max-width: none;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
+/*
+ * Screen Rules
+ */
 
+@media screen {
+  #is-site-layout {
+    min-height: calc(100vh - 20px);
+  }
+
+  .is-fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+  }
+
+  .is-hidden-screen {
+    display: none !important;
+  }
+}
+
+/*
+ * Print Rules
+ */
+
+@media print {
+  .is-hidden-print,
+  nav.breadcrumb {
+    display: none !important;
+  }
+
+  .is-block-print {
+    display: block !important;
+  }
+
+  .is-full-print {
+    flex: none;
+    width: 100% !important;
+  }
+
+  html.has-navbar-fixed-top {
+    padding-top: 0;
+  }
+
+  .is-static-print {
+    position: static !important;
+  }
+}
 
 /*
  * Side Menu
  */
 
-
 .menu-list {
-
   a {
     display: flex;
   }
@@ -40,11 +86,9 @@ html.is-fullwidth {
   }
 }
 
-
 /*
  * Form elements
  */
-
 
 .textarea {
   resize: vertical;
@@ -68,3 +112,27 @@ html.is-fullwidth {
 select.is-readonly {
   pointer-events: none;
 }
+
+/*
+ * Tables
+ */
+
+.table.is-fixed {
+  table-layout: fixed;
+}
+
+/*
+ * Helpers
+ */
+
+ .has-height-auto {
+   height: auto;
+ }
+
+ .has-newline-chars {
+   white-space: pre-wrap;
+ }
+
+ .is-nowrap {
+   white-space: nowrap;
+ }
