@@ -4,3 +4,67 @@
 @import 'bulma-tooltip/src/sass/index';
 @import 'bulma-steps/src/sass/index';
 @import 'bulma-switch/src/sass/index';
+
+
+/*
+ * HTML
+ */
+
+
+html.is-fullwidth {
+
+  .navbar > .container,
+  main.container,
+  .footer > .container {
+     max-width: none;
+     padding-right: 15px;
+     padding-left: 15px;
+  }
+}
+
+
+
+/*
+ * Side Menu
+ */
+
+
+.menu-list {
+
+  a {
+    display: flex;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+}
+
+
+/*
+ * Form elements
+ */
+
+
+.textarea {
+  resize: vertical;
+}
+
+.input[type='number'] {
+  -moz-appearance: textfield;
+
+  &::-webkit-inner-spin-button,
+  &::-webkit-outer-spin-button {
+    margin: 0;
+    -webkit-appearance: none;
+  }
+}
+
+.is-readonly {
+  cursor: not-allowed !important;
+  background-color: $light !important;
+}
+
+select.is-readonly {
+  pointer-events: none;
+}
