@@ -1,6 +1,6 @@
 {
   "name": "@cityssm/bulma-webapp-css",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Shared styling for lottery-licence-manager and parking-ticket-system.",
   "main": "index.js",
   "scripts": {
