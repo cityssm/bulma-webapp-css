@@ -138,8 +138,15 @@ select.is-readonly {
  * Tables
  */
 
-.table.is-fixed {
-  table-layout: fixed;
+.table {
+
+  &.is-fixed {
+    table-layout: fixed;
+  }
+
+  .is-vcentered {
+    vertical-align: middle;
+  }
 }
 
 /*
