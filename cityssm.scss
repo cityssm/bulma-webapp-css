@@ -153,14 +153,18 @@ select.is-readonly {
  * Helpers
  */
 
- .has-height-auto {
-   height: auto;
- }
+.has-height-auto {
+  height: auto;
+}
 
- .has-newline-chars {
-   white-space: pre-wrap;
- }
+.has-width-1 {
+  width: 1px !important;
+}
 
- .is-nowrap {
-   white-space: nowrap;
- }
+.has-newline-chars {
+  white-space: pre-wrap;
+}
+
+.is-nowrap {
+  white-space: nowrap;
+}
