@@ -1,0 +1,5 @@
+node_modules
+.atomignore
+.gitignore
+.npmignore
+.sass-lint.yml

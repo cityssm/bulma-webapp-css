@@ -1,6 +1,6 @@
 {
   "name": "@cityssm/bulma-webapp-css",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Shared styling for lottery-licence-manager and parking-ticket-system.",
   "main": "cityssm.min.css",
   "scripts": {
@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/cityssm/bulma-webapp-css#readme",
   "dependencies": {
-    "@cityssm/bulma-cool-checkboxes": "^1.0.1",
-    "bulma": "^0.8.2",
+    "@cityssm/bulma-cool-checkboxes": "^1.1.0",
+    "bulma": "^0.9.0",
     "bulma-divider": "^0.2.0",
-    "bulma-helpers": "^0.3.10",
+    "bulma-helpers": "^0.3.12",
     "bulma-steps": "^2.2.1",
     "bulma-switch": "^2.0.0",
     "bulma-tooltip": "^3.0.2"
