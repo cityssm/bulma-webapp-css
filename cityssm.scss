@@ -145,15 +145,16 @@ select.is-readonly {
   &.is-fixed {
     table-layout: fixed;
   }
-
-  .is-vcentered {
-    vertical-align: middle;
-  }
 }
 
 /*
  * Helpers
  */
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .has-height-auto {
   height: auto;
