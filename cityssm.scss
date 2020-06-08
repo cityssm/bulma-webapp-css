@@ -1,8 +1,19 @@
 @import 'bulma/bulma';
 
-$spacing-range-start: 0;
-$spacing-range-end: 50;
-@import 'bulma-helpers/bulma-helpers';
+$enable-media-queries: false;
+@import 'bulma-helpers/sass/variables/all';
+@import 'bulma-helpers/sass/mixins/all';
+
+@import 'bulma-helpers/sass/helpers/border/all';
+@import 'bulma-helpers/sass/helpers/cursor/all';
+@import 'bulma-helpers/sass/helpers/flex/all';
+@import 'bulma-helpers/sass/helpers/misc/all';
+@import 'bulma-helpers/sass/helpers/sizing/all';
+// @import "bulma-helpers/sass/helpers/spacing/all";
+
+// @import 'bulma-helpers/sass/helpers/media-queries/flex/all';
+// @import 'bulma-helpers/sass/helpers/media-queries/sizing/all';
+// @import 'bulma-helpers/sass/helpers/media-queries/spacing/all';
 
 @import 'bulma-divider/src/sass/index';
 @import 'bulma-tooltip/src/sass/index';
@@ -145,12 +156,10 @@ select.is-readonly {
  * Tables
  */
 
-.table {
-
-  &.is-fixed {
-    table-layout: fixed;
-  }
+.table.is-fixed {
+  table-layout: fixed;
 }
+
 
 /*
  * Helpers
