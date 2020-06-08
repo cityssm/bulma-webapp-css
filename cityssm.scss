@@ -1,6 +1,7 @@
 @import 'bulma/bulma';
 
 $spacing-range-start: 0;
+$spacing-range-end: 50;
 @import 'bulma-helpers/bulma-helpers';
 
 @import 'bulma-divider/src/sass/index';
@@ -31,8 +32,12 @@ html.is-fullwidth {
 @media screen {
   #is-site-layout {
     min-height: calc(100vh - 20px);
-  }
+    margin-bottom: 0;
 
+    & > :last-child {
+      padding-bottom: 1rem;
+    }
+  }
 
   .fixed-container {
     position: fixed;
