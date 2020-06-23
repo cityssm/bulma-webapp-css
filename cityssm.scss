@@ -1,6 +1,7 @@
 @import 'bulma/bulma';
 
 $enable-media-queries: false;
+
 @import 'bulma-helpers/sass/variables/all';
 @import 'bulma-helpers/sass/mixins/all';
 @import 'bulma-helpers/sass/helpers/border/all';
@@ -12,12 +13,10 @@ $enable-media-queries: false;
 // @import 'bulma-helpers/sass/helpers/media-queries/flex/all';
 // @import 'bulma-helpers/sass/helpers/media-queries/sizing/all';
 // @import 'bulma-helpers/sass/helpers/media-queries/spacing/all';
-//
 @import 'bulma-divider/src/sass/index';
 @import 'bulma-tooltip/src/sass/index';
 @import 'bulma-steps/src/sass/index';
 @import 'bulma-switch/src/sass/index';
-
 @import '@cityssm/bulma-cool-checkboxes/bulma-cool-checkboxes';
 
 /*
