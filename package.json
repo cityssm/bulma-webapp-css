@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/cityssm/bulma-webapp-css#readme",
   "dependencies": {
-    "@cityssm/bulma-cool-checkboxes": "^1.1.0",
+    "@cityssm/bulma-cool-checkboxes": "^1.1.1",
     "bulma": "^0.9.0",
     "bulma-divider": "^0.2.0",
     "bulma-helpers": "^0.3.12",
