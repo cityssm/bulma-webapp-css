@@ -1,30 +1,35 @@
 {
-  "name": "@cityssm/bulma-webapp-css",
-  "version": "0.11.0",
-  "description": "Shared styling for lottery-licence-manager and parking-ticket-system.",
-  "main": "cityssm.min.css",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cityssm/bulma-webapp-css.git"
-  },
-  "author": "Corporation of the City of Sault Ste. Marie",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cityssm/bulma-webapp-css/issues"
-  },
-  "homepage": "https://github.com/cityssm/bulma-webapp-css#readme",
-  "devDependencies": {
-    "@cityssm/bulma-a11y": "^0.4.0",
-    "@cityssm/bulma-sticky-table": "^1.4.0",
-    "@cityssm/simple-fa5-checkbox": "^0.2.1",
-    "bulma": "^0.9.3",
-    "bulma-divider": "^0.2.0",
-    "bulma-helpers": "^0.4.2",
-    "bulma-steps": "^2.2.1",
-    "bulma-switch": "^2.0.4",
-    "bulma-tooltip": "^3.0.2"
-  }
+    "name": "@cityssm/bulma-webapp-css",
+    "version": "0.12.0",
+    "type": "module",
+    "description": "Shared styling for lottery-licence-manager and parking-ticket-system.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cityssm/bulma-webapp-css.git"
+    },
+    "author": "Corporation of the City of Sault Ste. Marie",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/cityssm/bulma-webapp-css/issues"
+    },
+    "homepage": "https://github.com/cityssm/bulma-webapp-css#readme",
+    "devDependencies": {
+        "@cityssm/bulma-a11y": "^0.4.0",
+        "@cityssm/bulma-sticky-table": "^2.0.1",
+        "@cityssm/simple-fa5-checkbox": "^0.2.1",
+        "@types/gulp": "^4.0.9",
+        "@types/gulp-sass": "^5.0.0",
+        "bulma": "^0.9.4",
+        "bulma-divider": "^0.2.0",
+        "bulma-helpers": "^0.4.3",
+        "bulma-steps": "^2.2.1",
+        "bulma-switch": "^2.0.4",
+        "bulma-tooltip": "^3.0.2",
+        "gulp": "^4.0.2",
+        "gulp-sass": "^5.1.0",
+        "sass": "^1.54.9"
+    }
 }

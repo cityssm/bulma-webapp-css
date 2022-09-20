@@ -1,6 +1,10 @@
-node_modules
-.atomignore
 .github
+node_modules
+
 .gitignore
 .npmignore
+.prettierignore
+.prettierrc.json
 .sass-lint.yml
+gulpfile.*
+tsconfig.json
